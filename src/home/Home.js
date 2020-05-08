@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-export const Home = () => {
+export const Home = ({ name }) => {
   return (
-    <div>
-      <h1>I'm Kacy</h1>
+    <div className="container rounded text-center">
+      <h1>I'm {name}</h1>
     </div>
   );
 };

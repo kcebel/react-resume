@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+import './App.scss';
 import {Home} from "./home/Home";
 
 function App() {
   return (
-    <Home />
+    <Home name="Kacy"/>
   );
 }
 
